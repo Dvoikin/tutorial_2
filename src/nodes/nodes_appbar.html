@@ -1,0 +1,6 @@
+<pip-nav-icon></pip-nav-icon>
+<p>{{ vm.title }}</p>
+<div class="flex"></div>
+<md-button class="md-icon-button" ng-repeat="action in vm.primaryActions" ng-click="action.click()">
+    <md-icon md-svg-icon="{{action.icon}}"></md-icon>
+</md-button>

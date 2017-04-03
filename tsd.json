@@ -1,0 +1,45 @@
+{
+  "version": "v4",
+  "repo": "borisyankov/DefinitelyTyped",
+  "ref": "master",
+  "path": "typings",
+  "bundle": "typings/tsd.d.ts",
+  "installed": {
+    "angularjs/angular.d.ts": {
+      "commit": "baadc0b1309dbd75b25bac04bbee67976e2fbd17"
+    },
+    "jquery/jquery.d.ts": {
+      "commit": "baadc0b1309dbd75b25bac04bbee67976e2fbd17"
+    },
+    "lodash/lodash.d.ts": {
+      "commit": "3cc599268d2dabe3c3ee194e92965ee87440e9c3"
+    },
+    "angular-ui-router/angular-ui-router.d.ts": {
+      "commit": "3cc599268d2dabe3c3ee194e92965ee87440e9c3"
+    },
+    "angular-material/angular-material.d.ts": {
+      "commit": "3cc599268d2dabe3c3ee194e92965ee87440e9c3"
+    },
+    "core-js/core-js.d.ts": {
+      "commit": "3cc599268d2dabe3c3ee194e92965ee87440e9c3"
+    },
+    "angularjs/angular-resource.d.ts": {
+      "commit": "3cc599268d2dabe3c3ee194e92965ee87440e9c3"
+    },
+    "moment/moment.d.ts": {
+      "commit": "403268fecf3a207a3b933c9bb24cdbf5430e3359"
+    },
+    "angularjs/angular-mocks.d.ts": {
+      "commit": "769e7894540064a33ef43c3f420d0bf4092820f4"
+    },
+    "angularjs/angular-animate.d.ts": {
+      "commit": "baadc0b1309dbd75b25bac04bbee67976e2fbd17"
+    },
+    "async/async.d.ts": {
+      "commit": "dcdcc64c864036e9e280b1254c1b030765cb0171"
+    },
+    "prismjs/prism.d.ts": {
+      "commit": "c3daad4d0547d301ce5dad25138216fa0a30d547"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+<md-toolbar class="pip-appbar-ext">
+</md-toolbar>
+
+<pip-document class="app-events">
+     <div class="pip-body p16">
+         <h3>{{ vm.event.node_name }}: {{ vm.event.node_id }}</h3>
+         <md-input-container class="w-stretch bm0">
+             <label for="this">Description</label>
+             <textarea ng-model="vm.event.description" ng-change="vm.onChangeEvent()">
+             </textarea>
+         </md-input-container>
+         <md-input-container class="w-stretch bm0">
+             <label for="this">Temperature</label>
+             <input type="" ng-model="vm.event.temperature" ng-change="vm.onChangeEvent()">
+         </md-input-container>
+         <md-input-container class="w-stretch bm0">
+             <label for="this">Radiation level</label>
+             <input type="" ng-model="vm.event.rad_level" ng-change="vm.onChangeEvent()">
+         </md-input-container>
+     </div>
+</pip-document>

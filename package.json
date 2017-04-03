@@ -1,0 +1,11 @@
+{
+  "name": "pip-webui-sample",
+  "version": "1.0.0",
+  "description": "Getting started sample for Pip.WebUI",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "pip-webui-all": "git+https://github.com/pip-webui/pip-webui-all.git",
+    "pip-webui-tasks": "git+https://github.com/pip-webui/pip-webui-tasks.git"
+  }
+}

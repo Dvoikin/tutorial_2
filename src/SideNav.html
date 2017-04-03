@@ -1,0 +1,10 @@
+<md-list class="sidenav-list">
+    <md-list-item class="no-border pip-sticky-nav-menu-item" ng-click="vm.onLinkClick(link.state)" ng-repeat="link in vm.links">
+            <div class="pip-sticky-nav-menu-icon-block" style="margin-right: 16px">
+                <md-icon class="pip-sticky-nav-menu-icon flex-fixed" md-svg-icon="{{link.icon}}"></md-icon>
+            </div>
+            <div class="pip-sticky-nav-menu-title">
+                {{link.title}}
+            </div>
+    </md-list-item>
+</md-list>

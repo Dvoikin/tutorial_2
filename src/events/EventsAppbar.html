@@ -1,0 +1,9 @@
+<pip-nav-icon ng-if="!vm.navIcon"></pip-nav-icon>
+<md-button class="md-icon-button" ng-if="vm.navIcon" ng-click="vm.navIcon.click()">
+    <md-icon md-svg-icon="{{ vm.navIcon.icon }}"></md-icon>
+</md-button>
+<p>{{ vm.title }}</p>
+<div class="flex"></div>
+<md-button class="md-icon-button" ng-repeat="action in vm.primaryActions" ng-click="action.click()">
+    <md-icon md-svg-icon="{{action.icon}}"></md-icon>
+</md-button>
